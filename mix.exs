@@ -28,13 +28,13 @@ defmodule MeeseeksHtml5ever.Mixfile do
 
   defp deps do
     [
-      {:rustler_precompiled, "~> 0.7.1"},
+      {:rustler_precompiled, "~> 0.8.0"},
 
       # Optional
       {:rustler, ">= 0.0.0", optional: true},
 
       # Docs
-      {:ex_doc, "~> 0.24.0", only: :docs, runtime: false}
+      {:ex_doc, ">= 0.0.0", only: :docs, runtime: false}
     ]
   end
 
